@@ -1,0 +1,1202 @@
+.cuadro1{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+    list-style:none; 
+}
+
+.header{
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    background-color:#A8BFDA;
+    width: 1410px;
+    height: 94px;
+    left: 17px;
+    right: 17px;
+    top: 20px;
+    margin: 01%;
+    padding: 1px 20 20 20;
+}
+
+.header .titulo{
+    order:2;
+    margin-left: 20px;
+    padding-right: 50px;
+}
+
+.titulo a {
+    position: absolute;
+    width: 177px;
+    height: 32px;
+    left: 90px;
+    top: 12px;
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 59px;
+    text-align: center;
+    color: #000000;
+}
+
+.titulo:hover{
+    transform: scale(1.1);
+}
+
+.header nav{
+    order:1;
+    margin-right: 800px;
+    padding-left: 20px;
+}
+
+.header .nav-links{
+    font-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20 0;
+}
+
+.header .nav-links a{
+    width: 177px;
+    height: 32px;
+    right: 984px;
+    top: 12px;
+    font-weight: 400;
+    font-size:40px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links li a:hover{
+    color: #FFFFFF;
+}
+
+.logo{
+    position: absolute;
+    width: 258.28px;
+    height: 263.35px;
+    left: 1094px;
+    top: 75px;
+
+    background: #D9D9D9;
+    border-radius: 129.142px;
+    transform: rotate(-30.82deg);
+}
+
+.logo-png{
+    position: absolute;
+    width: 212.88px;
+    height: 211.14px;
+    left: 1117px;
+    top: 102px;
+
+    border-radius: 113.818px;
+    transform: rotate(-30.82deg);
+}
+
+.rectangulo2{
+    position: absolute;
+    width: 542px;
+    height: 36px;
+    left: 17px;
+    top: 137px;
+    background: #D9D9D9;
+}
+
+.principal{
+    position: absolute;
+    width: 189px;
+    height: 30px;
+    left: 17px;
+    top: 143px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 01px;
+    text-align: center;
+    color: rgba(34, 34, 34, 0.9);
+}
+
+.horarios{
+    position: absolute;
+    width: 362px;
+    height: 29px;
+    left: 25px;
+    top: 195px;
+
+    font-family:"poppins", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.horarios1{
+    position: absolute;
+    width: 359px;
+    height: 24px;
+    left: 25px;
+    top: 227px;
+
+    font-family:"poppins", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.horarios2{
+    position: absolute;
+    width: 359px;
+    height: 24px;
+    left: 25px;
+    top: 254px;
+
+    font-family:"poppins", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.rectangulo3{
+    position: absolute;
+    width: 274px;
+    height: 45px;
+    left: 29px;
+    top: 392px;
+
+    background: #D9D9D9;
+}
+
+.rectangulo4{
+    position: absolute;
+    width: 274px;
+    height: 45px;
+    left: 17px;
+    top: 382px;
+
+    background: #C3DAF5;
+}
+
+.catalogo{
+    position: absolute;
+    width: 209px;
+    height: 85px;
+    left: 40px;
+    top: 365px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 37px;
+    line-height: 77px;
+
+color: #000000;
+}
+
+.rectangulo5{
+    position: absolute;
+    width: 1401px;
+    height: 474px;
+    left: 22px;
+    top: 487px;
+    background: #A8BFDA;
+    border-radius: 27px;
+
+}
+
+.rectangulo6{
+    position: absolute;
+    width: 259px;
+    height: 225px;
+    left: 85px;
+    top: 527px;
+
+    background: #C3DAF5;
+    border-radius: 44px;
+}
+
+.lirios-png{
+    position: absolute;
+    width: 226px;
+    height: 190px;
+    left: 104px;
+    top: 543px;
+
+    border-radius: 44px;
+
+}
+
+
+.rectangulo7{
+    position: absolute;
+    width: 218px;
+    height: 44px;
+    left: 112px;
+    top: 798px;
+
+    background: #FFFFFF;
+}
+.lirios{
+    position: absolute;
+    width: 185px;
+    height: 58px;
+    left: 126px;
+    top: 800px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+}
+
+.lirios:hover{
+    color:#5E86B6 ;
+}
+
+.precios1{
+    position: absolute;
+    width: 212px;
+    height: 19px;
+    left: 118px;
+    top: 849px;
+
+    font-family:"poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.precios2{
+    position: absolute;
+    width: 212px;
+    height: 23px;
+    left: 118px;
+    top: 870px;
+
+    font-family:"poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.rectangulo8{
+    position: absolute;
+    width: 259px;
+    height: 225px;
+    left: 387px;
+    top: 539px;
+
+    background: #C3DAF5;
+    border-radius: 44px;
+}
+
+.girasoles-png{
+    position: absolute;
+    width: 226px;
+    height: 190px;
+    left: 402px;
+    top: 556px;
+
+    border-radius: 44px;
+}
+
+.rectangulo9{
+    position: absolute;
+    width: 218px;
+    height: 44px;
+    left: 413px;
+    top: 798px;
+
+    background: #FFFFFF;
+}
+
+.girasoles{
+    position: absolute;
+    width: 176px;
+    height: 42px;
+    left: 435px;
+    top: 800px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+}
+
+.girasoles:hover{
+    color: #5E86B6;
+}
+
+.precios3{
+    position: absolute;
+    width: 212px;
+    height: 23px;
+    left: 416px;
+    top: 849px;
+
+    font-family:"poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;   
+}
+
+.precios4{
+    position: absolute;
+    width: 212px;
+    height: 23px;
+    left: 416px;
+    top: 870px;
+
+    font-family:"poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.rectangulo10{
+    position: absolute;
+    width: 259px;
+    height: 225px;
+    left: 703px;
+    top: 539px;
+
+    background: #C3DAF5;
+    border-radius: 44px;
+}
+
+.calendulas-png{
+    position: absolute;
+    width: 226px;
+    height: 190px;
+    left: 718px;
+    top: 556px;
+
+    border-radius: 44px;
+}
+
+.rectangulo11{
+    position: absolute;
+    width: 218px;
+    height: 44px;
+    left: 724px;
+    top: 798px;
+
+    background: #FFFFFF;
+}
+
+.calendulas{
+    position: absolute;
+    width: 196px;
+    height: 43px;
+    left: 735px;
+    top: 800px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+}
+
+.calendulas:hover{
+    color:#5E86B6 ;
+}
+
+.precios5{
+    position: absolute;
+    width: 212px;
+    height: 23px;
+    left: 727px;
+    top: 849px;
+
+    font-family:"poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.precios6{
+    position: absolute;
+    width: 212px;
+    height: 23px;
+    left: 730px;
+    top: 870px;
+
+    font-family:"poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.rectangulo12{
+    position: absolute;
+    width: 259px;
+    height: 225px;
+    left: 1040px;
+    top: 539px;
+    background: #C3DAF5;
+    border-radius: 44px;
+}
+
+.rosas-png{
+    position: absolute;
+    width: 226px;
+    height: 190px;
+    left: 1057px;
+    top: 556px;
+    
+    border-radius: 44px;
+}
+
+.rectangulo13{
+    position: absolute;
+    width: 218px;
+    height: 44px;
+    left: 1061px;
+    top: 798px;
+    background: #FFFFFF;
+}
+
+.rosas{
+    position: absolute;
+    width: 182px;
+    height: 36px;
+    left: 1079px;
+    top: 800px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+}
+
+.rosas:hover{
+    color: #5E86B6 ;
+}
+
+.precios7{
+    position: absolute;
+    width: 212px;
+    height: 24px;
+    left: 1064px;
+    top: 849px;
+
+    font-family:"poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.precios8{
+    position: absolute;
+    width: 212px;
+    height: 23px;
+    left: 1064px;
+    top: 870px;
+
+    font-family:"poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.footer{
+    position: absolute;
+    width: 202px;
+    height: 44px;
+    left: 0px;
+    top: 980px;
+
+    font-family:"poppins", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.cuadro2{
+    position: relative;
+    width: 1450px;
+    height: 1024px;
+    background: #FFFFFF;    
+}
+
+.contacto{
+    position: absolute;
+    width: 263px;
+    height: 44px;
+    left: 60px;
+    top: 25px;
+
+    font-family: "poppins", sans-serif;
+    font-style: italic;
+    font-weight: 550;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.contacto1{
+    position: absolute;
+    width: 420px;
+    height: 29px;
+    left: 33px;
+    top: 136px;
+
+    font-family:"poppins", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+
+
+.tlf{
+    position: absolute;
+    width: 100px;
+    height: 98px;
+    left: 19px;
+    top: 250px;
+    background: #D9D9D9;
+    border-radius: 109.5px;
+}
+
+.tlf-png{
+    position: absolute;
+    width: 76px;
+    height: 78px;
+    left: 32px;
+    top: 260px;
+
+    border-radius: 101.5px;
+}
+
+.tlf-num{
+    position: absolute;
+    width: 380px;
+    height: 38px;
+    left: 130px;
+    top: 280px;
+
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.tlf-num:hover{
+   color:#5E86B6;
+}
+
+.ig{
+    position: absolute;
+    width: 100px;
+    height: 98px;
+    left: 19px;
+    top: 370px;
+    background: #D9D9D9;
+    border-radius: 109.5px;
+}
+
+.ig-png{
+    position: absolute;
+    width: 76px;
+    height: 78px;
+    left: 31px;
+    top: 380px;
+    border-radius: 101.5px;
+}
+
+.ig-user{
+    position: absolute;
+    width: 322px;
+    height: 44px;
+    left: 131px;
+    top: 400px;
+
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.ig-user:hover{
+    color:#5E86B6 ;
+}
+
+.gmail{
+    position: absolute;
+    width: 100px;
+    height: 98px;
+    left: 452px;
+    top: 250px;
+    background: #D9D9D9;
+    border-radius: 109.5px;
+}
+
+.gmail-png{
+    position: absolute;
+    width: 76px;
+    height: 78px;
+    left: 465px;
+    top: 260px;
+
+    border-radius: 101.5px; 
+}
+
+.gmail-user{
+    position: absolute;
+    width: 474px;
+    height: 36px;
+    left: 567px;
+    top: 280px;
+
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.gmail-user:hover{
+    color:#5E86B6;
+}
+
+.rectangulo14{
+    position: absolute;
+    width: 638px;
+    height: 94px;
+    left: 792px;
+    top: 510px;
+    background: #A8BFDA;
+}
+
+.info1{
+    position: absolute;
+    width: 445px;
+    height: 48px;
+    left: 885px;
+    top: 540px;
+
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
+
+.info2{
+    position: absolute;
+    width: 757px;
+    height: 29px;
+    left: 670px;
+    top: 620px;
+
+    font-family: 'poppins', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.rectangulo15{
+    position: absolute;
+    width: 579px;
+    height: 79px;
+    left: 20px;
+    top: 653px;
+    background: #A8BFDA;
+}
+
+.pago{
+    position: absolute;
+    width: 445px;
+    height: 44px;
+    left: 69px;
+    top: 669px;
+
+    font-family: 'poppins', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000; 
+}
+
+.rectangulo16{
+    position: absolute;
+    width: 499px;
+    height: 44px;
+    left: 20px;
+    top: 752px;
+    background: #C3DAF5;
+}
+
+.credito{
+    position: absolute;
+    width: 274px;
+    height: 43px;
+    left: 48px;
+    top: 755px;
+
+    font-family: 'poppins', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.credito:hover{
+    color:#5E86B6
+}
+
+.rectangulo17{
+    position: absolute;
+    width: 389px;
+    height: 44px;
+    left: 24px;
+    top: 824px;
+    background: #C3DAF5;
+}
+
+.debito{
+    position: absolute;
+    width: 274px;
+    height: 43px;
+    left: 47px;
+    top: 827px;
+
+    font-family: 'poppins', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.debito:hover{
+    color:#5E86B6
+}
+
+.rectangulo18{
+    position: absolute;
+    width: 299px;
+    height: 44px;
+    left: 20px;
+    top: 888px;
+    background: #C3DAF5;
+}
+
+.paypal{
+    position: absolute;
+    width: 203px;
+    height: 38px;
+    left: 48px;
+    top: 890px;
+
+    font-family: 'poppins', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.paypal:hover{
+    color:#5E86B6;
+}
+
+.rectangulo19{
+    position: absolute;
+    width: 212px;
+    height: 44px;
+    left: 24px;
+    top: 952px;
+    background: #C3DAF5;
+}
+
+.zelle{
+    position: absolute;
+    width: 127px;
+    height: 43px;
+    left: 47px;
+    top: 955px;
+
+    font-family: 'poppins', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.zelle:hover{
+    color:#5E86B6;
+}
+
+.rectangulo20{
+    position: absolute;
+    width: 579px;
+    height: 79px;
+    left: 851px;
+    top: 758px;
+    background: #A8BFDA;
+}
+
+.envios{
+    position: absolute;
+    width: 400px;
+    height: 44px;
+    left: 930px;
+    top: 775px;
+
+    font-family: 'poppins', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
+
+.info3{
+    position: absolute;
+    width: 757px;
+    height: 29px;
+    left: 667px;
+    top: 861px;
+
+    font-family: 'poppins',sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+    opacity: 0.7;
+}
+
+
+.footer2{
+    position: absolute;
+    width: 202px;
+    height: 44px;
+    left: 1260px;
+    top: 980px;
+
+    font-family: 'poppins', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.cuadro3{
+    position: relative;
+    width: 1447px;
+    height: 1024px;
+    background: #FFFFFF;
+}
+
+.account{
+    position: absolute;
+    width: 263px;
+    height: 44px;
+    left: 592px;
+    top: 25px;
+
+    font-family: 'poppins',sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
+
+.info8{
+    position: absolute;
+    width: 541px;
+    height: 38px;
+    left: 453px;
+    top: 130px;
+
+    font-family: 'poppins', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.info9{
+    position: absolute;
+    width: 541px;
+    height: 38px;
+    left: 460px;
+    top: 165px;
+
+    font-family: 'poppins', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.email1{
+    position: absolute;
+    width: 324px;
+    height: 52px;
+    left: 0px;
+    top: 297px;
+
+    font-family: 'poppins', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+}
+
+.line{
+    position: absolute;
+    width: 233.02px;
+    height: 0px;
+    left: 43px;
+    top: 356px;
+    border: 1px solid #000000;
+    transform: rotate(0.73deg);
+}
+
+.rectangulo21{
+    position: absolute;
+    width: 727px;
+    height: 383px;
+    left: 423px;
+    top: 297px;
+    background: #C3DAF5;
+    border-radius: 30px;
+}
+
+.usuario{
+    position: absolute;
+    width: 232px;
+    height: 34px;
+    left: 485px;
+    top: 342px;
+
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.email2{
+    position: absolute;
+    width: 636px;
+    height: 72px;
+    left: 469px;
+    top: 379px;
+
+    border-radius: 40px;
+    border-color: #5E86B6;
+}
+
+.contraseña{
+    position: absolute;
+    width: 232px;
+    height: 34px;
+    left: 485px;
+    top: 495px;
+
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.contraseña1{
+    position: absolute;
+    width: 636px;
+    height: 72px;
+    left: 469px;
+    top: 537px;
+    border-radius: 40px;
+    border-color: #5E86B6;
+}
+
+.rectangulo22{
+    position: absolute;
+    width: 184px;
+    height: 63px;
+    left: 741px;
+    top: 697px;
+
+    background: #678EBC;
+    border-radius: 64px;
+}
+
+.continuar{
+    position: absolute;
+    width: 124px;
+    height: 22px;
+    left: 771px;
+    top: 715px;
+
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.continuar:hover{
+    color: #000000;
+}
+
+.rectangulo23{
+    position: absolute;
+    width: 184px;
+    height: 63px;
+    left: 954px;
+    top: 697px;
+
+    background: #D9D9D9;
+    border-radius: 64px;
+}
+
+.cuenta{
+    position: absolute;
+    width: 138px;
+    height: 58px;
+    left: 977px;
+    top: 699px;
+
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.cuenta:hover{
+    color: #5E86B6;
+}
+
+.footer3{
+    position: absolute;
+    width: 202px;
+    height: 44px;
+    left: 0px;
+    top: 980px;
+
+    font-family:"poppins", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.7;
+}
